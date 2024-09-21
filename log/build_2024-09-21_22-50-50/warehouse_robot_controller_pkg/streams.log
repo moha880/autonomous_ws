@@ -1,0 +1,42 @@
+[3.262s] Invoking command in '/home/mohamed/auto_ws/src/warehouse_robot_controller_pkg': PYTHONPATH=/home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build install --record /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed install_data
+[3.497s] running egg_info
+[3.498s] creating ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info
+[3.498s] writing ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/PKG-INFO
+[3.498s] writing dependency_links to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/dependency_links.txt
+[3.498s] writing entry points to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/entry_points.txt
+[3.498s] writing requirements to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/requires.txt
+[3.498s] writing top-level names to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/top_level.txt
+[3.561s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.564s] reading manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.566s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[3.566s] running build
+[3.566s] running build_py
+[3.567s] creating /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build
+[3.567s] creating /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib
+[3.567s] creating /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.567s] copying warehouse_robot_controller_pkg/__init__.py -> /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.567s] copying warehouse_robot_controller_pkg/robot_estimator.py -> /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.567s] copying warehouse_robot_controller_pkg/robot_controller.py -> /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[3.567s] running install
+[3.568s] running install_lib
+[3.569s] creating /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.569s] copying /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/__init__.py -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.569s] copying /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_estimator.py -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.570s] copying /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_controller.py -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[3.570s] byte-compiling /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/__init__.py to __init__.cpython-310.pyc
+[3.571s] byte-compiling /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_estimator.py to robot_estimator.cpython-310.pyc
+[3.572s] byte-compiling /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_controller.py to robot_controller.cpython-310.pyc
+[3.573s] running install_data
+[3.574s] creating /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/ament_index
+[3.574s] creating /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index
+[3.574s] creating /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[3.574s] copying resource/warehouse_robot_controller_pkg -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[3.574s] copying package.xml -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[3.574s] copying launch/controller_estimator.launch.py -> /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[3.574s] running install_egg_info
+[3.580s] Copying ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info to /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg-0.0.0-py3.10.egg-info
+[3.581s] running install_scripts
+[3.604s] Installing robot_controller script to /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[3.604s] Installing robot_estimator script to /home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[3.604s] writing list of installed files to '/home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/install.log'
+[3.646s] Invoked command in '/home/mohamed/auto_ws/src/warehouse_robot_controller_pkg' returned '0': PYTHONPATH=/home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/auto_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/build install --record /home/mohamed/auto_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed install_data

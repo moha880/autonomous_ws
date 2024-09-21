@@ -1,0 +1,49 @@
+[3.255s] Invoking command in '/home/mohamed/auto_ws/src/warehouse_robot_spawner_pkg': PYTHONPATH=/home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build install --record /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed install_data
+[3.494s] running egg_info
+[3.494s] creating ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info
+[3.495s] writing ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/PKG-INFO
+[3.495s] writing dependency_links to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/dependency_links.txt
+[3.495s] writing entry points to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/entry_points.txt
+[3.495s] writing requirements to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/requires.txt
+[3.495s] writing top-level names to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/top_level.txt
+[3.554s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[3.557s] reading manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[3.558s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[3.558s] running build
+[3.558s] running build_py
+[3.559s] creating /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build
+[3.559s] creating /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib
+[3.559s] creating /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[3.559s] copying warehouse_robot_spawner_pkg/__init__.py -> /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[3.559s] copying warehouse_robot_spawner_pkg/spawn_demo.py -> /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[3.559s] running install
+[3.560s] running install_lib
+[3.561s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[3.561s] copying /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/__init__.py -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[3.561s] copying /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/spawn_demo.py -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[3.562s] byte-compiling /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/__init__.py to __init__.cpython-310.pyc
+[3.563s] byte-compiling /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/spawn_demo.py to spawn_demo.cpython-310.pyc
+[3.563s] running install_data
+[3.564s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/ament_index
+[3.564s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index
+[3.564s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[3.564s] copying resource/warehouse_robot_spawner_pkg -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[3.564s] copying package.xml -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg
+[3.564s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[3.564s] copying launch/gazebo_world.launch.py -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[3.564s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds
+[3.565s] copying ./worlds/warehouse.world -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds/
+[3.565s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models
+[3.565s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse
+[3.565s] copying ./models/small_warehouse/model.sdf -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[3.566s] copying ./models/small_warehouse/model.config -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[3.566s] creating /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot
+[3.566s] copying ./models/mobile_warehouse_robot/model.sdf -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[3.566s] copying ./models/mobile_warehouse_robot/model.config -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[3.566s] copying ./worlds/warehouse.world -> /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/
+[3.566s] running install_egg_info
+[3.570s] Copying ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info to /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg-0.0.0-py3.10.egg-info
+[3.570s] running install_scripts
+[3.592s] Installing spawn_demo script to /home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/warehouse_robot_spawner_pkg
+[3.592s] writing list of installed files to '/home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/install.log'
+[3.647s] Invoked command in '/home/mohamed/auto_ws/src/warehouse_robot_spawner_pkg' returned '0': PYTHONPATH=/home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/auto_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/build install --record /home/mohamed/auto_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed install_data
