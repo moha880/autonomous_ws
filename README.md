@@ -6,6 +6,7 @@
 
 
 Welcome to the Autonomous Robot Platform! This innovative project focuses on developing a cutting-edge robot platform designed to seamlessly integrate with the InMoov humanoid robot, enabling it to navigate through the dynamic environment of ICB School.
+
 🌟 Key Features
 
 
